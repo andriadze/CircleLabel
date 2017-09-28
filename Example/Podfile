@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CircleLabel_Example' do
+  pod 'CircleLabel', :path => '../'
+
+  target 'CircleLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4F7DE2441C84B3C51DBAB4FC9E53AB /* Pods-CircleLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EE45551265A7DBA003A129802D4FA0 /* Pods-CircleLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B6B811D2C031EEB409A9CFA60CD3C /* Pods-CircleLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7799BAD95FA5EBA707021C9EA5697577 /* Pods-CircleLabel_Example-dummy.m */; };
+		134F4EAB792C5F43FA9D1671BDA1A9DC /* Pods-CircleLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76FCD939507EFDB3BC6838739C745D1 /* Pods-CircleLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADF5958106D35D7B847BE17A573E468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		34335DEF8BD8BB02358EF19BFBC9A1BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F23C1921F7CE91400A3B75D /* CircleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23C1911F7CE91400A3B75D /* CircleLabel.swift */; };
+		97699B56A0E147BD1136718FB28258F5 /* CircleLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1F2CDD25E20306CA3848E12FEF9EF8 /* CircleLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A1C27704239C7C6BF371972CA6F87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D7D093FBD2E591D8181C30A198B466A4 /* CircleLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB9D581E303AB7146522844190EA4D0 /* CircleLabel-dummy.m */; };
+		FDD60F4F32F983DC44AA6BECAC9CD680 /* Pods-CircleLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D3582F86312F2F143BC57C76BB42CC /* Pods-CircleLabel_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585EB99F6D0741897A305CE663B871DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE84EB874EC091947E10AF4A6968A6E;
+			remoteInfo = CircleLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0830C9F5B96A61139EABB57A991D430D /* Pods-CircleLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		09DF43E3CF4354B398CA2C20869E40DB /* Pods-CircleLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		1120A7F0779C397FBB50298435EF9CF4 /* Pods_CircleLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F0F9185EDBC9C2AC5D361D525DCFE1 /* Pods-CircleLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1E23D46B313089AEE95690D06EE2784C /* Pods-CircleLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		31EE45551265A7DBA003A129802D4FA0 /* Pods-CircleLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		378E62D8EFDB883EEDEF5A0799197BA8 /* Pods-CircleLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F23C1911F7CE91400A3B75D /* CircleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLabel.swift; sourceTree = "<group>"; };
+		41AF2EBCF164C5069D6B07CFAD21FAE9 /* Pods-CircleLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F039BC597C50E05DEA45C9D9647FDA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542259185F7F0A7E71902926D60C85A1 /* Pods_CircleLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		681C414FCEC9D345A67B5D4EC39434AD /* CircleLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleLabel.xcconfig; sourceTree = "<group>"; };
+		6A24ABC1321744AD86B5BC399B555FA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD7B3F31D2F69F6B0EB2B94973116C6 /* Pods-CircleLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7799BAD95FA5EBA707021C9EA5697577 /* Pods-CircleLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		8A36D4B815E65B74731B0CA5E786AA7E /* Pods-CircleLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F7A67B6AE6B87FEE5E2CB1054F74E56 /* Pods-CircleLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979223712B81CD484E0DFC54B09B1F84 /* Pods-CircleLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CircleLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		9A1C606CEA89B602A29C538F8C895B27 /* Pods-CircleLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		A1D3B3362F6EAFEF229B537CC690F198 /* Pods-CircleLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B148E4B550D586F3D34F9B1BBF668031 /* Pods-CircleLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CircleLabel_Example.modulemap"; sourceTree = "<group>"; };
+		B6EE2659DB1ACF3BF3470E11DF6A37F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1382CD4C477CF74605961B454403394 /* CircleLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CircleLabel.modulemap; sourceTree = "<group>"; };
+		C1D3582F86312F2F143BC57C76BB42CC /* Pods-CircleLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		CAC5DAF65743BDCBD2DCA638F5E45E4C /* Pods-CircleLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CD014BA0006D92DEDFEC178CAF034F88 /* CircleLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleLabel-prefix.pch"; sourceTree = "<group>"; };
+		DCDCDF2C940098E050927483DD91D97D /* CircleLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1F2CDD25E20306CA3848E12FEF9EF8 /* CircleLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleLabel-umbrella.h"; sourceTree = "<group>"; };
+		E76FCD939507EFDB3BC6838739C745D1 /* Pods-CircleLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECB9D581E303AB7146522844190EA4D0 /* CircleLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleLabel-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8E3F247F6F26B8005AC7199EF373693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADF5958106D35D7B847BE17A573E468 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D2808732C5CF8D83A54E3E787713C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34335DEF8BD8BB02358EF19BFBC9A1BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80BAA9E85E0503399E3CD6AB42E091E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A1C27704239C7C6BF371972CA6F87C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EF079D74D3AA5876FADB1083F36012 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E79DB3C8C94D2A4ADA43846945C086C /* CircleLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		31F57BB142E8C90F9B00085F6BFCE878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDCDF2C940098E050927483DD91D97D /* CircleLabel.framework */,
+				542259185F7F0A7E71902926D60C85A1 /* Pods_CircleLabel_Example.framework */,
+				1120A7F0779C397FBB50298435EF9CF4 /* Pods_CircleLabel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324C34DA702531C7D93BFB1376FFD3FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F23C1911F7CE91400A3B75D /* CircleLabel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5B113238DE8AE7E872E7ADF8C3CEAA08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1382CD4C477CF74605961B454403394 /* CircleLabel.modulemap */,
+				681C414FCEC9D345A67B5D4EC39434AD /* CircleLabel.xcconfig */,
+				ECB9D581E303AB7146522844190EA4D0 /* CircleLabel-dummy.m */,
+				CD014BA0006D92DEDFEC178CAF034F88 /* CircleLabel-prefix.pch */,
+				DD1F2CDD25E20306CA3848E12FEF9EF8 /* CircleLabel-umbrella.h */,
+				4F039BC597C50E05DEA45C9D9647FDA8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CircleLabel";
+			sourceTree = "<group>";
+		};
+		61C97C8C5ACFC2FC0076F9674CCCD692 /* Pods-CircleLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE2659DB1ACF3BF3470E11DF6A37F4 /* Info.plist */,
+				B148E4B550D586F3D34F9B1BBF668031 /* Pods-CircleLabel_Example.modulemap */,
+				A1D3B3362F6EAFEF229B537CC690F198 /* Pods-CircleLabel_Example-acknowledgements.markdown */,
+				41AF2EBCF164C5069D6B07CFAD21FAE9 /* Pods-CircleLabel_Example-acknowledgements.plist */,
+				7799BAD95FA5EBA707021C9EA5697577 /* Pods-CircleLabel_Example-dummy.m */,
+				11F0F9185EDBC9C2AC5D361D525DCFE1 /* Pods-CircleLabel_Example-frameworks.sh */,
+				09DF43E3CF4354B398CA2C20869E40DB /* Pods-CircleLabel_Example-resources.sh */,
+				E76FCD939507EFDB3BC6838739C745D1 /* Pods-CircleLabel_Example-umbrella.h */,
+				1E23D46B313089AEE95690D06EE2784C /* Pods-CircleLabel_Example.debug.xcconfig */,
+				0830C9F5B96A61139EABB57A991D430D /* Pods-CircleLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-CircleLabel_Example";
+			path = "Target Support Files/Pods-CircleLabel_Example";
+			sourceTree = "<group>";
+		};
+		64E66FA7564B117BBED68A2927E796C2 /* Pods-CircleLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A24ABC1321744AD86B5BC399B555FA3 /* Info.plist */,
+				979223712B81CD484E0DFC54B09B1F84 /* Pods-CircleLabel_Tests.modulemap */,
+				8A36D4B815E65B74731B0CA5E786AA7E /* Pods-CircleLabel_Tests-acknowledgements.markdown */,
+				8F7A67B6AE6B87FEE5E2CB1054F74E56 /* Pods-CircleLabel_Tests-acknowledgements.plist */,
+				C1D3582F86312F2F143BC57C76BB42CC /* Pods-CircleLabel_Tests-dummy.m */,
+				CAC5DAF65743BDCBD2DCA638F5E45E4C /* Pods-CircleLabel_Tests-frameworks.sh */,
+				9A1C606CEA89B602A29C538F8C895B27 /* Pods-CircleLabel_Tests-resources.sh */,
+				31EE45551265A7DBA003A129802D4FA0 /* Pods-CircleLabel_Tests-umbrella.h */,
+				378E62D8EFDB883EEDEF5A0799197BA8 /* Pods-CircleLabel_Tests.debug.xcconfig */,
+				6BD7B3F31D2F69F6B0EB2B94973116C6 /* Pods-CircleLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-CircleLabel_Tests";
+			path = "Target Support Files/Pods-CircleLabel_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20EF079D74D3AA5876FADB1083F36012 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				31F57BB142E8C90F9B00085F6BFCE878 /* Products */,
+				B10D40EB32FB3B5D4925151F1EE6ADC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E79DB3C8C94D2A4ADA43846945C086C /* CircleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				86335DE04A008C34BBBCB5A5CEBB6A81 /* CircleLabel */,
+				5B113238DE8AE7E872E7ADF8C3CEAA08 /* Support Files */,
+			);
+			name = CircleLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		86335DE04A008C34BBBCB5A5CEBB6A81 /* CircleLabel */ = {
+			isa = PBXGroup;
+			children = (
+				324C34DA702531C7D93BFB1376FFD3FA /* Classes */,
+			);
+			path = CircleLabel;
+			sourceTree = "<group>";
+		};
+		B10D40EB32FB3B5D4925151F1EE6ADC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61C97C8C5ACFC2FC0076F9674CCCD692 /* Pods-CircleLabel_Example */,
+				64E66FA7564B117BBED68A2927E796C2 /* Pods-CircleLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17FDDF455218A0718D41535C89F8E4F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134F4EAB792C5F43FA9D1671BDA1A9DC /* Pods-CircleLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7988A2A6B58F4F2946E6FD171CD68E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97699B56A0E147BD1136718FB28258F5 /* CircleLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3DA6A01BA531B214961964D0F9517E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4F7DE2441C84B3C51DBAB4FC9E53AB /* Pods-CircleLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45A11788D68F569DEC137D8FBFFBC7BE /* Pods-CircleLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAA145B06BD9775C06B246312F76EEA /* Build configuration list for PBXNativeTarget "Pods-CircleLabel_Tests" */;
+			buildPhases = (
+				9772157B4D77F0597DB04D823AF6085F /* Sources */,
+				A8E3F247F6F26B8005AC7199EF373693 /* Frameworks */,
+				DF3DA6A01BA531B214961964D0F9517E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CircleLabel_Tests";
+			productName = "Pods-CircleLabel_Tests";
+			productReference = 1120A7F0779C397FBB50298435EF9CF4 /* Pods_CircleLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6564BF5FDE7E753CA40040FF1C55A03B /* Pods-CircleLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9057EB7F19E91F25FFF6AC0D2229DF35 /* Build configuration list for PBXNativeTarget "Pods-CircleLabel_Example" */;
+			buildPhases = (
+				2CC47436322076EF65E606F5517BB737 /* Sources */,
+				C84D2808732C5CF8D83A54E3E787713C /* Frameworks */,
+				17FDDF455218A0718D41535C89F8E4F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0CC4FA2F28E0B73EF8155B94E308C06 /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleLabel_Example";
+			productName = "Pods-CircleLabel_Example";
+			productReference = 542259185F7F0A7E71902926D60C85A1 /* Pods_CircleLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BE84EB874EC091947E10AF4A6968A6E /* CircleLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D36971BA3E771C751154A4BC703E0A6 /* Build configuration list for PBXNativeTarget "CircleLabel" */;
+			buildPhases = (
+				FD19156DFA7E11420536FF4AC1B31F9C /* Sources */,
+				D80BAA9E85E0503399E3CD6AB42E091E /* Frameworks */,
+				4E7988A2A6B58F4F2946E6FD171CD68E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleLabel;
+			productName = CircleLabel;
+			productReference = DCDCDF2C940098E050927483DD91D97D /* CircleLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					6BE84EB874EC091947E10AF4A6968A6E = {
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31F57BB142E8C90F9B00085F6BFCE878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE84EB874EC091947E10AF4A6968A6E /* CircleLabel */,
+				6564BF5FDE7E753CA40040FF1C55A03B /* Pods-CircleLabel_Example */,
+				45A11788D68F569DEC137D8FBFFBC7BE /* Pods-CircleLabel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC47436322076EF65E606F5517BB737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7B6B811D2C031EEB409A9CFA60CD3C /* Pods-CircleLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9772157B4D77F0597DB04D823AF6085F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD60F4F32F983DC44AA6BECAC9CD680 /* Pods-CircleLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD19156DFA7E11420536FF4AC1B31F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D093FBD2E591D8181C30A198B466A4 /* CircleLabel-dummy.m in Sources */,
+				3F23C1921F7CE91400A3B75D /* CircleLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0CC4FA2F28E0B73EF8155B94E308C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleLabel;
+			target = 6BE84EB874EC091947E10AF4A6968A6E /* CircleLabel */;
+			targetProxy = 585EB99F6D0741897A305CE663B871DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2574AC4F477C62DA6EA2875290FDA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378E62D8EFDB883EEDEF5A0799197BA8 /* Pods-CircleLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleLabel_Tests/Pods-CircleLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CircleLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		585CB92774F066B9D4FE37B7C3587C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681C414FCEC9D345A67B5D4EC39434AD /* CircleLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleLabel/CircleLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleLabel/CircleLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircleLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61A1318D2DD8C433EACF563F97C6A2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD7B3F31D2F69F6B0EB2B94973116C6 /* Pods-CircleLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleLabel_Tests/Pods-CircleLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CircleLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60456DAF17EE191E9F1853B32F79F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E23D46B313089AEE95690D06EE2784C /* Pods-CircleLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleLabel_Example/Pods-CircleLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CircleLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E55B413014D7B4565F88C86AA11E95E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0830C9F5B96A61139EABB57A991D430D /* Pods-CircleLabel_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleLabel_Example/Pods-CircleLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CircleLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4AD0122B11D01DD9DA73A6014BE69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681C414FCEC9D345A67B5D4EC39434AD /* CircleLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleLabel/CircleLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleLabel/CircleLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircleLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAA145B06BD9775C06B246312F76EEA /* Build configuration list for PBXNativeTarget "Pods-CircleLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2574AC4F477C62DA6EA2875290FDA46D /* Debug */,
+				61A1318D2DD8C433EACF563F97C6A2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D36971BA3E771C751154A4BC703E0A6 /* Build configuration list for PBXNativeTarget "CircleLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4AD0122B11D01DD9DA73A6014BE69B /* Debug */,
+				585CB92774F066B9D4FE37B7C3587C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9057EB7F19E91F25FFF6AC0D2229DF35 /* Build configuration list for PBXNativeTarget "Pods-CircleLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60456DAF17EE191E9F1853B32F79F3D /* Debug */,
+				E55B413014D7B4565F88C86AA11E95E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

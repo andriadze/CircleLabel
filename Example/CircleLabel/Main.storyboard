@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CircularText" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8kQ-Y1-vhw"/>
+                        <viewControllerLayoutGuide type="bottom" id="X3C-G5-LPR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvI-BV-ZjQ">
+                                <rect key="frame" x="122" y="617" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View table"/>
+                                <connections>
+                                    <action selector="change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5e-8n-Mx2"/>
+                                    <segue destination="z9E-lI-uPe" kind="show" id="tgk-Zo-Sm7"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U0t-cv-kvw" customClass="CircleLabel" customModule="CircleLabel">
+                                <rect key="frame" x="144" y="261" width="215" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Cool"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="colorFromText" value="ATASI WELI"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nwr-Ab-sCd" customClass="CircleLabel" customModule="CircleLabel">
+                                <rect key="frame" x="16" y="169" width="162" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Ay"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="colorFromText" value="SomeDoperText"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="amountLines">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dGZ-dR-F0D" customClass="CircleLabel" customModule="CircleLabel">
+                                <rect key="frame" x="135" y="0.0" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Circle Color"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="colorFromText" value="SomeDopeText"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useTextColor" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                        <color key="value" red="0.68463942307692305" green="0.55686274509803924" blue="0.96671874999999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="amountLines">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gqx-WS-Rer" customClass="CircleLabel" customModule="CircleLabel">
+                                <rect key="frame" x="16" y="441" width="191" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Custom Color Scheme"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="colorFromText" value="SomeDopeText"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useTextColor" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                        <color key="value" red="0.68463942310000003" green="0.5568627451" blue="0.96671874999999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="amountLines">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGZ-c0-JsU" customClass="CircleLabel" customModule="CircleLabel">
+                                <rect key="frame" x="132" y="136" width="191" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Multi Line"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="colorFromText" value="SomeDopeText"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useTextColor" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                        <color key="value" red="0.68463942310000003" green="0.5568627451" blue="0.96671874999999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="amountLines">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="circleFromSb" destination="U0t-cv-kvw" id="DFR-bU-XiE"/>
+                        <outlet property="customColorScheme" destination="gqx-WS-Rer" id="QXC-d3-9vl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109.59999999999999" y="33.733133433283363"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="83P-HP-gc1">
+            <objects>
+                <tableViewController id="z9E-lI-uPe" customClass="TableViewController" customModule="CircularText" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oLx-hy-tTm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" rowHeight="122" id="1R8-4a-L12" customClass="CustomCell" customModule="CircularText" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="122"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1R8-4a-L12" id="SdY-6e-kVp">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="121.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ikQ-8Q-bjF" customClass="CircleLabel" customModule="CircleLabel">
+                                            <rect key="frame" x="8" y="17" width="83" height="87"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="text" value="FA"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="colorFromText" value="ASDAD"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSK-KS-UNa">
+                                            <rect key="frame" x="99" y="50" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="OSK-KS-UNa" firstAttribute="leading" secondItem="ikQ-8Q-bjF" secondAttribute="trailing" constant="8" symbolic="YES" id="5T8-l8-UP9"/>
+                                        <constraint firstItem="ikQ-8Q-bjF" firstAttribute="centerY" secondItem="SdY-6e-kVp" secondAttribute="centerY" id="A6e-tE-cUt"/>
+                                        <constraint firstItem="ikQ-8Q-bjF" firstAttribute="centerY" secondItem="OSK-KS-UNa" secondAttribute="centerY" id="EFp-Vs-mjE"/>
+                                        <constraint firstItem="OSK-KS-UNa" firstAttribute="leading" secondItem="SdY-6e-kVp" secondAttribute="leading" constant="99" id="EXd-sa-eWJ"/>
+                                        <constraint firstItem="ikQ-8Q-bjF" firstAttribute="top" secondItem="SdY-6e-kVp" secondAttribute="topMargin" constant="9" id="jnT-NB-HPB"/>
+                                        <constraint firstItem="ikQ-8Q-bjF" firstAttribute="leading" secondItem="SdY-6e-kVp" secondAttribute="leadingMargin" id="oaY-oK-zWI"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="circleText" destination="ikQ-8Q-bjF" id="xm2-T4-UwB"/>
+                                    <outlet property="customText" destination="OSK-KS-UNa" id="JMC-t2-xcM"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="z9E-lI-uPe" id="glB-s6-4kA"/>
+                            <outlet property="delegate" destination="z9E-lI-uPe" id="xD0-gp-Yze"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdG-7b-B3x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997.60000000000002" y="34.632683658170919"/>
+        </scene>
+    </scenes>
+</document>

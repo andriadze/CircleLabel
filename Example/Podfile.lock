@@ -1,0 +1,16 @@
+PODS:
+  - CircleLabel (0.1.0)
+
+DEPENDENCIES:
+  - CircleLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CircleLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CircleLabel: 34d639238263c0aa31c4b244bcdd10bf5d004117
+
+PODFILE CHECKSUM: 66be9dd8e064e29f0eb41da972478298a84f69e4
+
+COCOAPODS: 1.2.1
