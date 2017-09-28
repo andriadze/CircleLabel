@@ -53,7 +53,7 @@ You can set parameters directly from Storyboard or Manually from code.
 
 var circle:CircleLabel
 
-//Set text within color
+//Set text within circle
 circle.text = "From Code"
 
 //This text will be used to generate circle color
