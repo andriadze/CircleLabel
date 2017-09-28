@@ -10,7 +10,7 @@ Lib automatically creates labels with circular backgrounds(Like in contacts app 
 
 Library is written in swift
 ```swift
-    iOS Version >= 8.0
+iOS Version >= 8.0
 ```
 
 It is highly customizable.
@@ -44,7 +44,7 @@ import CircleLabel
 Drag UIView to your view and set class to CircleLabel.
 
 You can set parameters directly from Storyboard or Manually from code.
-<img src="https://i.imgur.com/bLpKgz4.png" width="500">
+<img src="https://i.imgur.com/bLpKgz4.png" width="800">
 
 
 
