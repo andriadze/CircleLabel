@@ -9,9 +9,9 @@
 import UIKit
 
 @IBDesignable
-class CircleLabel : UIImageView
+public class CircleLabel : UIImageView
 {
-    static let DEFAULT_COLOR_SCHEME:[UInt32] = [
+    public static let DEFAULT_COLOR_SCHEME:[UInt32] = [
         0xfff16364,
         0xfff58559,
         0xfff9a43e,
@@ -23,41 +23,41 @@ class CircleLabel : UIImageView
         0xff805781
     ]
     
-    var COLOR_SCHEME:[UInt32] = CircleLabel.DEFAULT_COLOR_SCHEME{
+    public var COLOR_SCHEME:[UInt32] = CircleLabel.DEFAULT_COLOR_SCHEME{
         didSet{
             setCircleAndText();
         }
     }
     
-    @IBInspectable var textColor:UIColor = UIColor.white{
+    @IBInspectable public var textColor:UIColor = UIColor.white{
         didSet{
             setCircleAndText()
         }
     }
     
-    @IBInspectable var text:String = "" {
+    @IBInspectable public var text:String = "" {
         didSet{
             setCircleAndText()
         }
     }
-    @IBInspectable var colorFromText:String = ""{
+    @IBInspectable public var colorFromText:String = ""{
         didSet{
             setCircleAndText()
         }
     }
-    @IBInspectable var padding:Float = 0.3{
-        didSet{
-            setCircleAndText()
-        }
-    }
-    
-    @IBInspectable var useTextColor:Bool = true{
+    @IBInspectable public var padding:Float = 0.3{
         didSet{
             setCircleAndText()
         }
     }
     
-    @IBInspectable var circleColor:UIColor = UIColor.gray{
+    @IBInspectable public var useTextColor:Bool = true{
+        didSet{
+            setCircleAndText()
+        }
+    }
+    
+    @IBInspectable public var circleColor:UIColor = UIColor.gray{
         didSet{
             if(!useTextColor){
                 setCircleAndText()
@@ -65,21 +65,21 @@ class CircleLabel : UIImageView
         }
     }
     
-    @IBInspectable var amountLines:Int = 1{
+    @IBInspectable public var amountLines:Int = 1{
         didSet{
             setCircleAndText()
         }
     }
     
     
-    override init(frame:CGRect)
+    override public init(frame:CGRect)
     {
         super.init(frame: frame)
         
         setCircleAndText();
     }
     
-    init(frame:CGRect, text:String, colorText:String)
+    public init(frame:CGRect, text:String, colorText:String)
     {
         
         super.init(frame: frame)
@@ -89,7 +89,7 @@ class CircleLabel : UIImageView
         setCircleAndText();
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setCircleAndText();
 
@@ -160,7 +160,7 @@ class CircleLabel : UIImageView
         
     }
     
-    override func prepareForInterfaceBuilder()
+    override public func prepareForInterfaceBuilder()
     {
         setCircleAndText();
     }
